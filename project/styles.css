@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+  }
+
+.body{
+
+    position: relative;
+    width: 1440px;
+    height: 5189px;
+
+    background: #FFFFFF;
+
+}
+
+.header{
+    position: absolute;
+    width: 555px;
+    height: 140px;
+    left: 150px;
+    top: 206.77px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    /* or 140% */
+
+    color: #0B132A;
+}
+
+
+.subtitle{
+    position: absolute;
+    width: 555px;
+    height: 60px;
+    left: 150px;
+    top: 366.77px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    color: #4F5665;
+}
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+.nav-item{
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-left: 2rem;
+  }
+  
+  .nav-link {
+    font-weight: var(--bold-font);
+  }
+
+
+/* .logo{
+    width: 149px;
+    height: 36.23px;
+    top: 50px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+} */
+
+    ul li {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+    
+    a:hover {
+        color: var(--secondary-color);
+    } 
+
+.main-btn{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    top: 476.77px;
+    left: 150px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: #F53838;
+    /* border-radius: 10px; */
+}
+
+.main-pic{
+    position: absolute;
+    width: 611.24px;
+    height: 382.44px;
+    left: 745.76px;
+    top: 179.11px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+
+    position: absolute;
+    width: 1140px;
+    height: 200px;
+    left: 150px;
+    top: 664.55px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.fas{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 241px;
+    top: 737.05px;
+}
+
+
+
+
