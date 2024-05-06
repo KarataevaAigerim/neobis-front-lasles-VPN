@@ -1,0 +1,18 @@
+.hero__btn{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    top: 476.77px;
+    left: 150px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: #F53838;
+    /* border-radius: 10px; */
+}
+
+.nav-btn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
