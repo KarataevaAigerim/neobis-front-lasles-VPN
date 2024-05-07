@@ -1,0 +1,37 @@
+.global__pic{
+    object-fit: cover;
+    width: 100%;
+    max-width: 1350px;
+    margin-top: 100px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+}
+
+.global__title{
+    font-size: var(--font-xl);
+    font-weight: 500;
+    line-height: 70px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.global__desc{
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.global{
+    justify-content: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 85%;
+    text-align: center;
+    margin: 250px auto;
+}

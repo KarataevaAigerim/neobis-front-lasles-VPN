@@ -1,0 +1,17 @@
+.testimonials{
+    justify-content: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 85%;
+    text-align: center;
+    margin: 250px auto;
+}
+
+.testimonial__desc{
+    text-align: center;
+    margin: 20px 0px 50px;
+    font-size: 1.3rem;
+    line-height: 25px;
+    color: #202020;
+}

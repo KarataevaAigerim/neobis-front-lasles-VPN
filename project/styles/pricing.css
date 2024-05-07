@@ -1,0 +1,47 @@
+.pricing{
+    justify-content: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 85%;
+    text-align: center;
+    margin: 250px auto;
+}
+.pricing__cards{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;  */ */
+    /* display: flex; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing__card{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* width: 94%; */
+    /* height: 750px; */
+    border-radius: 10px;
+    margin: 10px auto 50px;
+    padding: 75px 0px 60px;
+    border: 2px solid #d3d3d3;
+    font-size: 1.6rem;  
+}
+
+.pricing__title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.pricing__desc{
+    text-align: center;
+    margin: 20px 0px 50px;
+    font-size: 1.6rem;
+    line-height: 25px;
+    color: #202020;
+}
