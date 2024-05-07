@@ -49,12 +49,26 @@
 }
 
 .feature__details{
-    font-weight: 500;
-    line-height: 30px;
+    color: #202020;
+    margin: 20px 0px;
+    font-size: 1.6rem;
+    line-height: 25px;
+
 }
 
+.feature__list{
+    list-style-type: none;
+    text-align: left;
+    color: #202020;
+    display:block;
+}
 
 .feature__pic{
     width: 611px;
     object-fit: cover;
+}
+
+.fas {
+    margin-right: 10px;
+    color: #2fab73;
 }
