@@ -1,18 +1,37 @@
 .hero__btn{
-    position: absolute;
+    display: block;
     width: 250px;
-    height: 60px;
-    top: 476.77px;
-    left: 150px;
-    gap: 0px;
-    border-radius: 10px 0px 0px 0px;
-    opacity: 0px;
-    background: #F53838;
-    /* border-radius: 10px; */
+    padding: 18px 0px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #f53838;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #f5383883;
+    text-align: center;
+    margin: 30px 0px 15px;
+    transition: all .5s;
 }
 
 .nav-btn{
     display: flex;
     flex-direction: row;
     column-gap: 20px;
+}
+
+.sub__btn {
+    display: block;
+    width: 250px;
+    padding: 18px 0px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #f53838;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #f5383883;
+    text-align: center;
+    margin: 30px 0px 15px;
+    transition: all .5s;
 }

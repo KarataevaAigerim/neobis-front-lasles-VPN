@@ -51,7 +51,12 @@
     object-fit: cover;
 }
 
-.fas {
+.fa-check {
+    margin-right: 10px;
+    color: #2fab73;
+}
+
+.fa-check-circle {
     margin-right: 10px;
     color: #2fab73;
 }
