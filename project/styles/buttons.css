@@ -20,6 +20,31 @@
     column-gap: 20px;
 }
 
+.signin-btn {
+    color: #000;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.signup-btn {
+    display: inline-block;
+    width: 60%;
+    max-width: 150px;
+    padding: 7px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #f53838;
+    background-color: transparent;
+    border: 2px solid #f53838;
+    border-radius: 25px;
+    border-width: 1px;
+    transition: all .5s;
+}
+
 .sub__btn {
     display: block;
     width: 250px;
@@ -35,3 +60,20 @@
     margin: 30px 0px 15px;
     transition: all .5s;
 }
+
+.pricing-btn {
+    display: inline-block;
+    width: 60%;
+    max-width: 250px;
+    padding: 12px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #f53838;
+    background-color: transparent;
+    border: 2px solid #f53838;
+    border-radius: 25px;
+    transition: all .5s;
+}
+
